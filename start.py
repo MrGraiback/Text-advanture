@@ -15,11 +15,6 @@ except:
     chars = {'hp': 1, 'int': 1, 'charisma': 1, 'power': 1, 'level': 1, 'inventory': []}
     save(chars)
 
-# if chars['level'] == 0:
-#     test.level0(chars)
-#     chars['level'] += 1
-#     save(chars)
-
 
 if chars['level'] == 1:
     level1.main(chars)
