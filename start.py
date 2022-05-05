@@ -1,6 +1,7 @@
 import json, os
 import level1
 import level2
+from anecAPI import anecAPI
 
 def save(chars):
     file = open('save.json', 'w')
@@ -28,12 +29,13 @@ if chars['level'] == 2:
     save(chars)
 
 if chars['level'] >= 3:
-    print ('thanks fo gaming this game')
+    print ('To be continued')
     chars['level'] += 1
     save(chars)
 
 if chars['level'] >= 5:
-    print('do you like this title SO much?')
+    print('Do you like what you see?')
+    print(anecAPI.random_joke()) # Displays a random USSR or Russian joke
     os.remove('save.json')
 
 
