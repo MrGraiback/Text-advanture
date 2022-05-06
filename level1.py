@@ -30,7 +30,7 @@ def main(chars):
             chars["hp"] += 49
             time.sleep(2.0)
         elif thx == "n":
-            print ('Ralph: Klingt schlecht, ')
+            print ('Ralph: Klingt schlecht. ')
             chars['hp'] += 19
             time.sleep(2.0)
         else:
