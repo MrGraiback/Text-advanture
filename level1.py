@@ -49,7 +49,7 @@ def main(chars):
     time.sleep (5.0)
     print ('Aber dann erfaerst du auch warum die Soldaten den Feind so nennen.\nSie nennen ihn so weil sie schwarze Ruestungen tragen...Lustig')
     time.sleep (4.0)
-    print ('Am 3 Tag langweiligen du dich im Zelt.')
+    print ('Am 3 Tag langweiligst du dich im Zelt.')
     time.sleep (3.0)
     print ('Ralph kommt mit einem anderen Mann in Ruestung rein.')
     time.sleep (2.5)
