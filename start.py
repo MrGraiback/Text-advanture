@@ -34,7 +34,7 @@ if chars['level'] >= 3:
     save(chars)
 
 
-if chars['level'] >= 4:
+if chars['level'] >= 5:
     print('Do you like what you see?')
     print(anecAPI.random_joke()) # Displays a random USSR or Russian joke
     chars['level'] += 1
