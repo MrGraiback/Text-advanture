@@ -29,7 +29,7 @@ def main(chars):
     print ('Dorian: Na dan naechste Frage, woher kommst du den? Ich hoffe nicht aus Nordfallen...')
     time.sleep (3.5)
     while True:
-        test = input ('Kann ich mich nicht mehr erinern(e),\nIch glaube aus Westfallen, aus dem Dorf Nirleb(n),\nKann sein das ich aus Westfallen komm, ich glaube das dorf hiess Niew(w). ').strip().lower()
+        test = input ('Kann ich mich nicht mehr erinern(e),\nIch glaube aus Westfallen, aus dem Dorf Nirleb(n),\nKann sein das ich aus Nordfallen komm, ich glaube das dorf hiess Niew(w). ').strip().lower()
         if test =='e':
             print ('Dorian: Ich hoffe es feallt dir noch ein. Aber passt schon')
             time.sleep (3.0)
